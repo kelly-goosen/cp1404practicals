@@ -11,6 +11,9 @@ def main():
     result = determine_result(score)
     print(f"User score {score} is {result}")
 
+    if result == "Excellent":
+        print("You get a prize!")
+
     random_score = random.uniform(0, 100)
     random_result = determine_result(random_score)
     print(f"Random: {random_score:.0f} = {random_result}")
