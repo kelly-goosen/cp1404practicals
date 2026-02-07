@@ -1,0 +1,63 @@
+Logic Exercise
+
+Project Manager = Earns the Most Money
+Consultant
+Programmer = Only Child = Earns the Least Money
+
+Brown = Has Sister = Consultant
+Jones = Programmer
+Smith = Earns the Most Money = Project Manager
+
+
+Algorithm with I, P, O
+
+get dose (grams of coffee beans)
+get yield (grams of brewed coffee)
+brew_ratio = yield / dose
+print "Brew ratio is 1 to" brew_ratio
+
+
+Algorithm with Decision
+
+get money
+get price
+if price =< money
+	print "You can afford this purchase"
+else
+	print "You cannot afford this purchase"
+
+
+Algorithm with Repetition
+
+pick up item
+while items remain
+	pick up item
+vacuum floor
+
+
+Problem Decomposition
+
+Problem 1
+Nouns: Customer name; date of booking; unique booking id; hourly charge; number of hours; total charge
+Verbs: Calculate; use; make; entered; displayed
+
+get customer_name
+get booking_date
+get hourly_charge
+get stay_duration_hr
+booking_id = booking_date + customer_name
+total_charge = hourly_charge * stay_duration_hr
+print "Total charge for" booking_id "is" total_charge
+
+Problem 2
+Nouns: Distance travelled; travel time; average speed
+Verbs: Ask the user; user will be shown
+
+get distance_km
+get time_min
+time_hours = time_min / 60
+average_speed_kmh = distance_km / time_hours
+print average_speed_kmh
+
+
+
