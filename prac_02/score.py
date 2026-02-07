@@ -11,7 +11,7 @@ def main():
     result = determine_result(score)
     print(f"User score {score} is {result}")
 
-    if result == "Excellent":
+    if result == "Excellent!":
         print("You get a prize!")
 
     random_score = random.uniform(0, 100)
@@ -24,7 +24,7 @@ def determine_result(score):
     if score < 0 or score > 100:
         return "Invalid score"
     elif score >= 90:
-        return "Excellent"
+        return "Excellent!"
     elif score >= 50:
         return "Passable"
     else:
